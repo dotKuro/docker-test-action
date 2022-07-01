@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: test actions
     steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
       - name: test action step step
         uses: dotKuro/docker-test-action@v3
