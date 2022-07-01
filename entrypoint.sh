@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 
-echo "Hello World!"
 ls /github/workspace
+du -h /github/workspace
+echo "Hello World!"
