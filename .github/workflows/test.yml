@@ -6,4 +6,4 @@ jobs:
     name: test actions
     steps:
       - name: test action step step
-        uses: dotKuro/docker-test-action
+        uses: dotKuro/docker-test-action@v1
